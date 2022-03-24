@@ -1,0 +1,30 @@
+{
+  "name": "web3-vue",
+  "version": "0.0.0",
+  "description": "A highly performant minimal library for building web3 dApps with Vue3",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prebuild": "rimraf build",
+    "build": "tsc --build",
+    "build:check": "node -e \"require('./dist')\""
+  },
+  "keywords": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adiled/web3-vue"
+  },
+  "author": "Adil Shaikh <hello@adils.me> (http://www.adils.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adiled/web3-vue/issues"
+  },
+  "homepage": "https://github.com/adiled/web3-vue#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+  }
+}
